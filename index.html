@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="Style/style_login.css">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
+        <title>Login</title>
+        <link rel="shortcut icon" href="https://d1h0x9w88ijkiq.cloudfront.net/3717a/images/favicon_play.ico">
+    </head>
+    <body>
+        <!-- Login Pop-up window -->
+        <section class="Login" id="Login">
+
+            <div id="modal_login" class="modal">
+                <div class="modal_content">
+                    <form name="form">
+                        <h5 id="acces_membre">Accès à l'espace membre</h5>
+                        <hr>
+                        <div>
+                            <label>Nom d'utilisateur</label>
+                            <input class="benevole" type="checkbox" id="benevole" name="benevole" value="benevole">
+                            <label>Bénévole</label> <br>
+                            <input class="username_input" autocomplete="off" type="text" id="username" name="username">
+                            <h6 id="error">Les données saisies ne sont pas correctes </h6>
+                        </div>
+                        <div>
+                            <label>Mot de passe</label> <br>
+                            <input class="password_input" type="password" id="password" name="password">
+                        </div>
+                        <hr>
+                        <div>
+                            <button type="reset" id="button_annuler" name="button_annuler" class="button button1">Annuler</button>
+                            <button type="button" id="button_connecter" name="button_connecter" class="button button2">Connecter</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+        
+    </body>
+
+    <script src = "script_login.js"></script>
+    <script src="data.json"></script>
+</html>

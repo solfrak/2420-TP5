@@ -1,0 +1,90 @@
+{
+    "donne": [
+        {"titre" : "Frigoscommunautaires"},
+        {"titre" : "Espace entretien"},
+        {"fleche": "Mes frigos"}
+    ],
+
+
+    "bottin" : [
+        
+            
+        {   "name" : "Michel",
+            "lastName" : "Gagnon",
+            "poste" : "Gestionnaire entretien",
+            "email" : "migchel.gagnon.967@gmail.com"},
+        
+        {   "name" : "Simon",
+            "lastName" : "Tremblay",
+            "poste" : "Préposé entretien",
+            "email" : "stremblay3450@videotron.ca"},
+            
+        {   "name" : "Robert",
+            "lastName" : "Roy",
+            "poste" : "Préposé entretien",
+            "email" : "robert.roy345@outlook.com"},
+            
+        {   "name" : "Fanny",
+            "lastName" : "Côté",
+            "poste" : "Préposé entretien",
+            "email" : "fcote3450@videotron.ca"},
+        
+        {   "name" : "Robert",
+            "lastName" : "Morin",
+            "poste" : "Préposé entretien",
+            "email" : "rrmorin3450@videotron.ca"}
+    ],
+
+    "Produit" : [
+
+        {"NomProduit":"Savon" },
+        { "NomProduit": "Guenillhe"},
+        { "NomProduit": "Désodorisant"},
+        { "NomProduit": "Ampoules"}
+    ],
+
+    "Guide":[
+        {
+            "titre": "Nettoyage et vérification générales",
+            "description": "Les portes d’un réfrigérateur se ferment hermétiquement grâce aux joints en caoutchouc (généralement blancs) situées tout autour des portes. Une saleté excessive pourrait empêche les joints de bien isoler l’espace entre le cabinet et la porte de réfrigérateur, ce qui causera une fuite d’air. Cette fuite fera augmenter la température et donc surchauffer le compresseur. Une autre conséquence est que la saleté pourrait causer l’adhérence du joint, qui, s’il reste collé, pourrait déchirer lors de l’ouverture de la porte. Pour éviter tous ces tracas, prenez 5 minutes une fois par mois pour les nettoyer à l’aide d’un linge humide pour éliminer les saletés. Changer un joint de porte peut coûter plus de 150$! Des frais facilement évitables Réf' https://service2000.ca/eviter-reparations-de-refrigerateur/'"
+        },
+        {
+            "titre": "Nettoyage des serpentins  du condenseur",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia officiis saepe odio nihil quidem natus, magni consequatur porro aspernatur deserunt commodi cupiditate quibusdam, iusto repudiandae neque quas ipsum doloribus sint maiores explicabo doloremque? Ullam aspernatur dolorem hic eveniet eos illo tenetur nesciunt eum, at itaque qui quidem libero numquam soluta..."
+        },
+        {
+            "titre": "Dégivrage",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia officiis saepe odio nihil quidem natus, magni consequatur porro aspernatur deserunt commodi cupiditate quibusdam, iusto repudiandae neque quas ipsum doloribus sint maiores explicabo doloremque? Ullam aspernatur dolorem hic eveniet eos illo tenetur nesciunt eum, at itaque qui quidem libero numquam soluta..."
+        },
+        {
+            "titre": "Vérification du système de drainage",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia officiis saepe odio nihil quidem natus, magni consequatur porro aspernatur deserunt commodi cupiditate quibusdam, iusto repudiandae neque quas ipsum doloribus sint maiores explicabo doloremque? Ullam aspernatur dolorem hic eveniet eos illo tenetur nesciunt eum, at itaque qui quidem libero numquam soluta..."
+        }
+    ],
+
+    "Nouvelles":[
+
+        {
+            "titre": "Nouveau site Web transactionnel",
+            "description": "Après de nombreux mois d’efforts, Frigoscommunautaire.org est ravie d’annoncer le lancement officiel de notre nouveau site Web en ligne. Ce site est entré en service le 1er février 2021 avec une nouvelle interface interactionnelle....",
+            "descriptionDetail": "Après de nombreux mois d’efforts, Frigoscommunautaire.org est ravie d’annoncer le lancement officiel de notre nouveau site Web en ligne. Ce site est entré en service le 1er février 2021 avec une nouvelle interface interactionnelle. Les membres de l’association disposent maintenant de l’avantage supplémentaire de pouvoir en tout temps donner et prendre des repas et aliments dans les différents frigos sur le territoire de Montréal. Avec ce nouveau site, les membres de Frigoscommunautaire.org bénéficient de nouvelles fonctionnalités telles que des frigos numériques affichant différents types d’information sur tous les aliments disponibles tels que le nombre de portions, les allergéniques présents et la date de péremption. Les preneurs pourront réserver des aliments en les ajoutant à leurs paniers électroniques avant de passer aux frigos pour les récupérer. Le nouveau site averti les donateurs qu’utilisent leurs propres contenants lorsqu’ils sont retournés au frigo d’origine dument nettoyés. Le nouveau site aide dans la formation des bénévoles et les supporte dans les différents flux d’information associés aux tâches de nettoyage et entretien des frigos. Ils peuvent tenir le système d’information tout à fait actualisé sur l’état (nettoyé et fonctionnel) des frigos ainsi que sur l’inventaire des aliments disponibles. "
+        },
+        {
+            "titre":"Nouveaux frigos arrivés",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia officiis saepe odio nihil quidem natus, magni consequatur porro aspernatur deserunt commodi cupiditate quibusdam, iusto repudiandae neque quas ipsum doloribus sint maiores explicabo doloremque? Ullam aspernatur dolorem hic eveniet eos illo tenetur nesciunt eum, at itaque qui quidem libero numquam soluta...",
+            "descriptionDetail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, dolorum? Nulla nemo fuga nam sequi dolorem optio ea expedita blanditiis deserunt, explicabo perferendis aut ipsa incidunt eos quidem porro totam quos dolore alias debitis! Ipsa, accusantium culpa. Aliquid voluptate doloremque impedit exercitationem ut! Eveniet ea quos odio ipsum sequi reprehenderit deleniti quod, doloribus esse a. Illo corporis dolorem fugiat error dolores mollitia voluptatum, ipsa perspiciatis, sint nihil et hic ipsam nemo animi non? Dicta aperiam ipsa exercitationem, a ut distinctio, sed veniam corporis deleniti molestiae sequi eaque aut facilis perferendis officia laboriosam. Dolor enim distinctio tempora accusamus ad? Recusandae, fuga."
+        },
+        {
+            "titre":"Nouvelle 001",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia officiis saepe odio nihil quidem natus, magni consequatur porro aspernatur deserunt commodi cupiditate quibusdam, iusto repudiandae neque quas ipsum doloribus sint maiores explicabo doloremque? Ullam aspernatur dolorem hic eveniet eos illo tenetur nesciunt eum, at itaque qui quidem libero numquam soluta...",
+            "descriptionDetail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, dolorum? Nulla nemo fuga nam sequi dolorem optio ea expedita blanditiis deserunt, explicabo perferendis aut ipsa incidunt eos quidem porro totam quos dolore alias debitis! Ipsa, accusantium culpa. Aliquid voluptate doloremque impedit exercitationem ut! Eveniet ea quos odio ipsum sequi reprehenderit deleniti quod, doloribus esse a. Illo corporis dolorem fugiat error dolores mollitia voluptatum, ipsa perspiciatis, sint nihil et hic ipsam nemo animi non? Dicta aperiam ipsa exercitationem, a ut distinctio, sed veniam corporis deleniti molestiae sequi eaque aut facilis perferendis officia laboriosam. Dolor enim distinctio tempora accusamus ad? Recusandae, fuga."
+        },
+        {
+            "titre":"Nouvelle 001",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia officiis saepe odio nihil quidem natus, magni consequatur porro aspernatur deserunt commodi cupiditate quibusdam, iusto repudiandae neque quas ipsum doloribus sint maiores explicabo doloremque? Ullam aspernatur dolorem hic eveniet eos illo tenetur nesciunt eum, at itaque qui quidem libero numquam soluta...",
+            "descriptionDetail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, dolorum? Nulla nemo fuga nam sequi dolorem optio ea expedita blanditiis deserunt, explicabo perferendis aut ipsa incidunt eos quidem porro totam quos dolore alias debitis! Ipsa, accusantium culpa. Aliquid voluptate doloremque impedit exercitationem ut! Eveniet ea quos odio ipsum sequi reprehenderit deleniti quod, doloribus esse a. Illo corporis dolorem fugiat error dolores mollitia voluptatum, ipsa perspiciatis, sint nihil et hic ipsam nemo animi non? Dicta aperiam ipsa exercitationem, a ut distinctio, sed veniam corporis deleniti molestiae sequi eaque aut facilis perferendis officia laboriosam. Dolor enim distinctio tempora accusamus ad? Recusandae, fuga."
+        }
+    ]
+
+
+}

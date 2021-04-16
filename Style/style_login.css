@@ -1,0 +1,71 @@
+/* Login pop-up */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: rgba(228, 228, 228, 1);
+  }
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top:50%;
+    width:100%;
+    z-index: 1; 
+  }
+
+
+.modal_content {
+    position:absolute; 
+    background-color: rgba(255,255,255,1);
+    padding: 0.5rem;
+    color: #8c8c8c;
+  }
+  
+.username_input, .password_input{
+    padding: 2px;
+    height: 40px;
+    border-style: 2px solid black;
+    border-radius: 2px;
+  }
+.label {
+    font-size: 14px;
+    text-align: left;
+  }
+ 
+h5 {
+    /*Arial bold*/
+ font-weight: 700;
+ font-size: 24px ;
+ padding-left: 5%; /*?*/
+}
+
+h6{
+    color:red;
+    border-bottom: 5px solid red;
+    visibility: hidden;
+}
+  .button {
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    width: 147px;
+    height: 40px;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: none;
+  }
+  .button1 {
+      color: #008c8c;
+    }
+  .button1:hover{
+    cursor:text;
+  }
+  .button2 {
+    color: rgba(255,255,255,1);
+    background-color: rgba(0, 140, 140, 1);
+  
+  }
+  .button2:hover {
+    cursor: pointer;
+    background-color: rgba(0, 140, 140, 1);
+  }

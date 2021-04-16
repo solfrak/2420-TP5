@@ -1,0 +1,131 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: rgba(228, 228, 228, 1);
+  margin-top: 0 !important;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+  margin-bottom: 5%;
+}
+
+button{
+  border-style: none;
+}
+.Guide{
+  font-family: Roboto;
+  font-size: 18px;
+
+}
+.middle_container{
+  display: flex;
+}
+.navigation {
+  text-align: center;
+  color: white;
+  border-width: 0px;
+  position: relative;
+  background-color: rgba(0, 140, 140, 1);
+}
+
+.title {
+  text-align: center;
+  color: white;
+  text-align: center;
+  font-style: normal;
+  font-size: 200%;
+  font-weight: 500;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  align-content: center;
+  color: white;
+  font-weight: 400;
+  margin: 0px;
+}
+
+#flecheMesFrigos {
+  cursor: pointer;
+}
+
+.frigos {
+  float: right;
+  width: 75%;
+}
+
+.imgContainer{
+  position: relative;
+}
+.commandButton:hover{
+  cursor: pointer;
+}
+
+.exitContainer{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.flecheContainer{
+  text-align: right;
+}
+
+
+.imgExit{
+  transform: rotate(180deg);
+}
+
+.imgExit:hover{
+  cursor: pointer;
+}
+
+.fleche{
+  text-align: right;
+  margin: 0px;
+}
+
+.subtitle_container{
+ display:flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+
+@media only screen and (max-width:700px){
+  
+  .title{
+    font-size: 140%;
+    text-align: center;
+    padding-left: 15%;
+  }
+
+  .subtitle{
+    font-size: 140%;
+    text-align: center;
+    padding-left: 15%;
+  }
+  
+  .commandButtonUpMobile{
+    visibility: visible;
+  }
+  .commandButtonDownMobile{
+    visibility: visible;
+  }
+  .commandButtonUp{
+    visibility: hidden;
+  }
+  .commandButtonDown{
+    visibility: hidden;
+  }
+  
+  
+  
+  
+}

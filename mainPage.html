@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="Style/generalStyle.css">
+<link rel="stylesheet" href="Style/popupStyle.css">
+<link rel="stylesheet" href="Style/commandeStyle.css">
+<link rel="stylesheet" href="Style/nouvelleStyle.css">
+<link rel="stylesheet" href="Style/basDePageStyle.css">
+<link rel="stylesheet" href="Style/bottinStyle.css">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
+        
+        <title>Acceuil</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet"> 
+        <link rel="shortcut icon" href="https://d1h0x9w88ijkiq.cloudfront.net/3717a/images/favicon_play.ico">
+    </head>
+    <body onload="checkMediaWidth()" onresize="checkMediaWidth()">
+        <div class="background" id="background">
+        </div>
+        <section class="navigation">
+            <div class="grid-container">
+                <div class="imgContainer">
+                    <div class="exitContainer">
+                    <img id="u97_img" class="imgExit" src="/picture/u8.svg" tabindex="0" style="outline: currentcolor none medium;">
+                    <div class ="popupExit" id = "popupExit">
+                        <div class = "popupExitTitle">
+                            <span>Quitter l'espace membre</span>
+                        </div>
+                        <div class = "popupExit_p"> 
+                            <p>Voulez-vous quitter l'espace membre? <br> Tant que vous serez contecté, vous <br> pouvez revenir librement.</p>
+                        </div>
+                        <div class = "popupExitButtons">
+                            <span class = "popupExitAnnuler" id = "popupExitAnnuler">Annuler</span>
+                            <span class = "popupExitOk" id = "popupExitOk">Ok</span>
+                        </div>
+                    </div>
+                    <p>public</p>
+                </div>
+            </div>
+            <div class="gird-item"><h1 class="title" id = "titre"></h1></div>
+            <div class="grid-item"></div>  
+            <div class="grid-item"></div>
+            <div class="grid-item"><h2 class="subtitle" id = "sous-titre"></h2></div>
+            <div class="imgContainer">
+                <div class="flecheContainer" id="flecheMesFrigos">
+                        <img src="/picture/u132.svg" alt="">
+                        <p id="fleche" class="fleche"></p>
+                        
+                        
+                </div>
+            </div>  
+        </div>   
+        </section>
+
+
+        <div class = "middleContainer">
+            <div class="nouvelles_container" >
+                <div class="nouvelle" id="Nouvelles">
+                    <h1>Nouvelles</h1>
+                </div>
+            </div>
+    
+    
+            <div class="commande">
+                <div class="grid-container2" >
+                    <div class="grid-item"> 
+                        <span class="commande_title">Commande du matériel</span>
+                    <div class="grid-item">
+                        <div class="inner-grid-container">
+                            <button class="commandButtonMobile" onclick="up('produit1Input')">+</button>
+                            <input type="text" class="commandElemInput" id="produit1Input" value="0">
+                            <button class="commandButtonMobile" onclick="down('produit1Input')">-</button>
+
+                            <div class="button-grid">
+                                <img  class="commandButtonUp"  src="/picture/up_u345_a.svg" alt="" onclick="up('produit1Input')">
+                                <img class="commandButtonDown" src="/picture/down_u344_a.svg" alt="" onclick="down('produit1Input')">
+                            </div>
+                            
+                            <p class="product_name"> Savon</p>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="inner-grid-container">
+                            <button class="commandButtonMobile" onclick="up('produit2Input')">+</button>
+                            <input type="text" class="commandElemInput" id="produit2Input" value="0">
+                            <button class="commandButtonMobile" onclick="down('produit2Input')">-</button>
+                            <div class="button-grid">
+                                <img  class="commandButtonUp"  src="/picture/up_u345_a.svg" alt="" onclick="up('produit2Input')">
+                                <img class="commandButtonDown" src="/picture/down_u344_a.svg" alt="" onclick="down('produit2Input')">
+                            </div>
+                            
+                            <p class="product_name">Guenille</p>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="inner-grid-container">
+                            <button class="commandButtonMobile" onclick="up('produit3Input')">+</button>
+                            <input type="text" class="commandElemInput" id="produit3Input" value="0">
+                            <button class="commandButtonMobile" onclick="down('produit3Input')">-</button>                            
+                            <div class="button-grid">
+                                <img  class="commandButtonUp"  src="/picture/up_u345_a.svg" alt="" onclick="up('produit3Input')">
+                                <img class="commandButtonDown" src="/picture/down_u344_a.svg" alt="" onclick="down('produit3Input')">
+                         </div>
+                            
+                            <p class="product_name">Désodorisant</p>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="inner-grid-container">
+                            <button class="commandButtonMobile" onclick="up('produit4Input')">+</button>
+                            <input type="text" class="commandElemInput" id="produit4Input" value="0">
+                            <button class="commandButtonMobile" onclick="down('produit4Input')">-</button>    
+
+                            <div class="button-grid">
+                                <img  class="commandButtonUp"  src="/picture/up_u345_a.svg" alt="" onclick="up('produit4Input')">
+                                <img class="commandButtonDown" src="/picture/down_u344_a.svg" alt="" onclick="down('produit4Input')">
+                            </div>
+                            
+                            <p class="product_name">Ampoules</p>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div> 
+                            <p class="autres_title">Autres:</p>
+                        </div>
+                        
+                        <input type="text" class="commandElemComment" id="CommentaireBox"> 
+
+                        
+                        
+                    </div>
+                    <div class="grid-item">
+                        <button class="commandElemInput_button" onclick="fCommande()">Commander</button>
+                    </div>
+                    <div class = "popup" id="CommandePopup" onclick="popupButton(this.id)">
+                        <img src="https://image.flaticon.com/icons/png/512/458/458595.png" alt="" id="xButton2" class="xButton">
+                        <h1>Confirmation</h1>
+                        <p id="Savon">Savon: </p>
+                        <p id="Guenille">Guenille: </p>
+                        <p id="Désodorisant">Désodorisant: </p>
+                        <p id="Ampoules">Ampoules: </p>
+                        <p id="Commentaire"></p>
+                        <br>
+                        <p>Vous serez avisé lorsque les items commandés seront à votre disposition au siège de l’association Frigocommunautaire sur au 4525 Rue Clark, Montréal, QC.  </p>
+                    </div>
+    
+    
+                </div>
+            </div>
+        </div>
+
+        <section class = "bas_de_page">
+            <div class = "bas_de_page_container">
+                <div class="column_1" id="Guide">
+                    <h1>Guides d'entretien</h1>
+                </div>
+                <div class="column_2">
+                    <h1>Bottin</h1>
+                    <ul id="bottin_liste">
+
+                    </ul>
+                </div>
+                <div class="column_3">
+                    <h1>Compostage et partenaires</h1>
+                    <div id="MTL_container" >
+                        <br>
+                        <a href="https://servicesenligne2.ville.montreal.qc.ca/sel/infocollectes/">
+                            <img class="logo_MTL"  src="/picture/u167.png">
+                            <br>
+                            <span id="logoMTLdescription" class="logo_MTL_description">Info-collectes</span>
+                        </a>
+                    </div>
+                    <div id="brasserie_container">
+                        <a href="https://mabrasserie.com/">
+                            <br><br>
+                            <img class="logo_Brasserie" src="/picture/u170.jpg">
+                            <br>
+                            <span id="logoBrasseriedescription" class="logo_Brasserie_description">2300, rue Holt, Montréal (QC) H2G 1Y4 <br> info@mabrasserie.com <br>(514) 508-3309</span>   
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+        
+    </body>
+    <script src = "script.js"></script>
+    <script src="data.json"></script>
+</html>

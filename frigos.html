@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="Style/generalStyle.css">
+<link rel="stylesheet" href="Style/popupStyle.css">
+<link rel="stylesheet" href="Style/commandeStyle.css">
+<link rel="stylesheet" href="Style/nouvelleStyle.css">
+<link rel="stylesheet" href="Style/basDePageStyle.css">
+<link rel="stylesheet" href="Style/bottinStyle.css">
+<link rel="stylesheet" href="Style/frigo.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+
+  <title>Acceuil</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="https://d1h0x9w88ijkiq.cloudfront.net/3717a/images/favicon_play.ico">
+</head>
+
+<body>
+  <section class="navigation">
+    <div class="grid-container">
+      <div class="imgContainer">
+        <div class="exitContainer">
+          <img id="u97_img" class="imgExit" src="/picture/u8.svg" tabindex="0"
+            style="outline: currentcolor none medium;">
+          <div class="popupExit" id="popupExit">
+            <div class="popupExitTitle">
+              <span>Quitter l'espace membre</span>
+            </div>
+            <div class="popupExit_p">
+              <p>Voulez-vous quitter l'espace membre? <br> Tant que vous serez contecté, vous <br> pouvez revenir
+                librement.</p>
+            </div>
+            <div class="popupExitButtons">
+              <span class="popupExitAnnuler" id="popupExitAnnuler">Annuler</span>
+              <span class="popupExitOk" id="popupExitOk">Ok</span>
+            </div>
+          </div>
+          <p>public</p>
+        </div>
+      </div>
+      <div class="gird-item">
+        <h1 class="title" id="titre"></h1>
+      </div>
+      <div class="grid-item"></div>
+      <div class="grid-item">
+        <div class="flecheContainer">
+          <img src="/picture/u132.svg" id ="flecheEspaceEntretient" alt="" style="transform: rotate(180deg);">
+          <p id="fleche" class="fleche"></p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <h2 class="subtitle" id="sous-titre"></h2>
+      </div>
+      <div class="imgContainer">
+
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <img id="imageReparation" src="/picture/u107.png"></img>
+    <section>
+        <div class="container-fluid" id="listfrigo">
+            
+        </div>
+    </section>
+    <div id="frigoPopup"></div>
+
+    <div id="popupReparation">
+    <img src="https://image.flaticon.com/icons/png/512/458/458595.png" alt="" id="xButton2" class="xButton" onclick="fermerPopup('popupReparation')"">
+    <div class="container-fluid" id="UneEntrepriseFamiliale">
+      <div class="container">
+        <p>Service de réparation</p>
+        <div class="row ID friogo">
+          <label class="col-sm-6" for="frigo">ID du frigo défectueux </label>
+          <div class="col-sm-6">
+            <select name="frigo" id="frigoDefectueux">
+       
+            </select>
+          </div>
+          
+        </div>
+        <div class="row fonction affecté">
+          <div class="col-sm-6">Fonction affecté</div>
+          <div class="col-sm-6">
+            <select name="FonctionAffecte" id="FonctionAffecte">
+       
+            <option>Étagère</option>
+            <option>Éclairage</option>
+            <option>Porte</option>
+            <option>Réfrigération</option>
+            <option>Autre</option>
+
+              <un-frigo numero = "001"></un-frigo>
+              
+        </select></div>
+        </div>
+        <div class="row severité">
+          <div class="col-sm-6">Sévérité</div>
+
+          <div class="col-sm-2">
+            <input type="radio" id="faible" name="severité" value="faible">
+            <label for="faible">Faible</label><br>
+          </div>
+          <div class="col-sm-2">
+            <input type="radio" id="modere" name="severité" value="modere">
+            <label for="modere">Modere</label><br>
+          </div>
+          <div class="col-sm-2">
+            <input type="radio" id="critique" name="severité" value="critique">
+            <label for="critique">Critique</label><br>
+          </div>
+        </div>
+        <div class="commentaire">Commentaire</div>
+        <div class="row Boite commentaire">
+          <div class="col-sm-12">
+            <input type="text" class="ReparationComment" id="CommentaireBoxReparation">
+            <br><br>
+            <button id="boutonEnvoyerReparation" onclick="alerterReparation(); fermerPopup('popupReparation');">Envoyer</button>
+          </div>
+          </div>
+
+        </div>
+        </div>
+    </div>
+  </section>
+
+
+</body>
+<script src="frigo.js"></script>
+<script src="frigo.json"></script>
+
+</html>

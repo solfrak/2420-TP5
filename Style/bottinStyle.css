@@ -1,0 +1,41 @@
+/*Bottin*/
+.nom{
+    position: relative;
+    font: "Roboto";
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    color: rgb(51,51,51);
+  
+  }
+  .email{
+    font-size: 14px;
+    font: Arial, sans-serif;
+    font-weight: lighter;
+  }
+  .copy_icon{
+    position: relative;
+    padding-left: 9px;
+    height:15px;
+    width:15px;
+    cursor: pointer;
+  }
+  .plus{
+    font-weight: 400;
+    visibility: hidden;
+  }
+
+  @media only screen and (max-width:700px){
+  .copy_icon{
+    width: 30px;
+    height: 30px;
+    float: right;
+    padding-right: 7%;
+  }
+  .plus{
+    visibility: visible;
+    float: right;
+    padding-right: 7%;
+  }
+
+}

@@ -1,0 +1,49 @@
+/*Nouvelles*/
+
+.nouvelles_container{
+  display: flex;
+  float: left;
+  width: 69%;
+  padding-left: 1%;
+  overflow: auto;
+}
+.nouvelles {
+    float: left;
+    width: 100%;
+  }
+  
+  .article{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  
+  .firstarticlecontainer:hover {
+    cursor: pointer;
+  }
+  .xButton:hover{
+    cursor: pointer;
+  }
+  
+  .articlep{
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+  }
+  
+  h1{
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    
+  }
+  @media only screen and (max-width:1100px){ 
+    .nouvelles_container{
+      width: 54%;
+    }
+  }
+
+  @media only screen and (max-width:700px){
+    .nouvelles_container{
+      width: 100%;
+    }
+  }

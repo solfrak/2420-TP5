@@ -1,0 +1,43 @@
+[
+    {
+        "id": "moto_1",
+        "marque": "smuel",
+        "modele": "City Slicker",
+        "annee": "2019",
+        "photo": "./picture/frigo.png"
+    }, 
+    {
+        "id": "moto_2",
+        "marque": "Zero",
+        "modele": "FX",
+        "annee": "2020",
+        "photo": "./assets/Zero-FX.png"
+    },
+    {
+        "id": "moto_3",
+        "marque": "Cake",
+        "modele": "Kalk&",
+        "annee": "2020",
+        "photo": "./assets/Zero-FX.png"
+    },
+    {
+        "id": "moto_4",
+        "marque": "Evoke",
+        "modele": "Urban",
+        "annee": "2020",
+        "photo": "./assets/Zero-FX.png"
+    },
+    {
+        "id": "moto_5",
+        "marque": "Emflux",
+        "modele": "One",
+        "annee": "2020",
+        "photo": "./assets/Zero-FX.png"
+    },{
+        "id": "moto_6",
+        "marque": "Harey Davidson",
+        "modele": "LiveWire",
+        "annee": "2019",
+        "photo": "./assets/Zero-FX.png"
+    }
+]

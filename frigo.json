@@ -1,0 +1,78 @@
+{
+    "donne": [
+        {"titre" : "Frigoscommunautaires"},
+        {"titre" : "Mes frigos"},
+        {"fleche": "Espace entretient"}
+    ],
+    "frigo": [
+        {
+           "id" : "001",
+           "nettoyer" : 0,
+           "contenu": [
+               {
+                   "nom" : "pomme",
+                   "year": 2021,
+                   "month": 7,
+                   "date": 27
+               }, 
+               {
+                   "nom" : "banane",
+                   "year": 2021,
+                   "month": 7,
+                   "date": 27
+               },
+               {
+                "nom" : "patate",
+                "year": 2021,
+                "month": 7,
+                "date": 27
+               }
+           ] 
+        }, 
+        {
+            "id" : "002",
+            "nettoyer" : 0,
+            "contenu": [
+                {
+                    "nom" : "pomme"
+                }, 
+                {
+                    "nom" : "banane"
+                },
+                {
+                 "nom" : "patate"
+                }
+            ] 
+         }, 
+         {
+            "id" : "003",
+            "nettoyer" : 1,
+            "contenu": [
+                {
+                    "nom" : "pomme"
+                }, 
+                {
+                    "nom" : "banane"
+                },
+                {
+                 "nom" : "patate"
+                }
+            ] 
+         },
+         {
+            "id" : "003",
+            "nettoyer" : 1,
+            "contenu": [
+                {
+                    "nom" : "pomme"
+                }, 
+                {
+                    "nom" : "banane"
+                },
+                {
+                 "nom" : "patate"
+                }
+            ] 
+         }
+    ]
+}

@@ -1,0 +1,67 @@
+/*Bas de page*/
+/*Template*/
+.bas_de_page_container {
+    display: flex;
+    width: 100%;
+    padding-left: 1%;
+    bottom: 0;
+    background-image: linear-gradient(rgb(255, 255, 255) 0%, rgb(242, 242, 242) 0%, rgb(228, 228, 228) 100%, rgb(255, 255, 255) 100%);
+    overflow: hidden;
+  }
+  
+  .column_1,.column_2, .column_3{
+    position: relative;
+    float: left;
+    width:33.33%;
+    
+    font-weight: bold;
+  }
+
+  /*Compostage et Partenaires*/
+  a{
+    text-decoration: none;
+  }
+  .logo_MTL, .logo_Brasserie {
+    position: relative;
+    width:129px;
+    cursor:pointer;
+  }
+  .logo_MTL{
+    height:27px;
+  }
+  .logo_Brasserie{
+    height: 45px;
+  }
+  .logo_MTL_description, .logo_Brasserie_description{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(51,51,51);
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width:700px){
+    .column_1, .column_2, .column_3{
+      width: 100%;
+      padding-left: 4%;
+      background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(242, 242, 242, 1) 0%, rgba(228, 228, 228, 1) 100%, rgba(255, 255, 255, 1) 100%);
+    }
+
+    .bas_de_page_container{
+      display: inline-block;
+    }
+
+    .column_3{
+        overflow: hidden;
+    }
+
+    #MTL_container {
+        padding-top: 5%;
+        float: left;
+        width: 50%;
+    }
+    #brasserie_container {
+        width: 50%;
+        float: left;
+    }
+   
+}
