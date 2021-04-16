@@ -7,14 +7,40 @@
     <title>Document</title>
     <link rel="stylesheet" href="">
     <script src="cc-liste-frigo.js"></script>
+    <script src="test.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
-<body>  
-        
-        
-            <cc-liste-vehicules affiche_marque="true" affiche_modele="true" affiche_annee="true" fichier="./data/test.json"></cc-liste-vehicules>
-        
+<body>
+    
+   <style>
+       .grid-container-2{
+           display: grid;
+           grid-template-columns: 20% 20% 20% 20% 20%;
+       }
+        .verticalhorizontal {
+            margin: auto;
+        }
+    </style>
+    
+   <div style="width: 50%;">
+
+       <div class="grid-container" style="vertical-align: middle;">
+           <center class="verticalhorizontal">
+               <img src="https://image.flaticon.com/icons/png/512/458/458595.png" alt="" style="width: 20px; text-align: center; ">
+           </center>
+           <p>nom</p>
+           <p>perimer</p>
+           <p>date</p>
+           <div class="verticalhorizontal">
+            <input type="checkbox" id="moisi">
+            <label for="moisi">moisi</label>
+           </div>
+           
+           
+           
+       </div>
+   </div>
+ 
         
 </body>
 

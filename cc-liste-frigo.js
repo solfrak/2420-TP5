@@ -53,7 +53,7 @@ class CcListeVehicules extends HTMLElement {
     
         this.vehicules = [];
         this.fichier = '';
-        this.frigo = [];//
+        this.frigos = [];//
         this.fichierFrigo = '';//
 
         //defini le code encapsule'
@@ -65,7 +65,7 @@ class CcListeVehicules extends HTMLElement {
                 color: #ffffff;
                 margin: 5px;
                 padding: 5px;
-                width: 200px;
+                width: 33%;
             }
             h1, h2 {
                 color:blue;
@@ -78,10 +78,8 @@ class CcListeVehicules extends HTMLElement {
         </style>
         <template id="template-vehicule">
             <div class="frame col-md-4" id="vehicule-item">
-                <div class='row'>
-                    <div class='col-md-6' id = 'marque'></div>
-                    <div class='col-md-6' id = 'modele'></div>
-                </div>
+                <img src="/picture/u82.svg">
+                <img src='/picture/u82.svg">
                 <p id="annee"></p>
             </div>
         </template>
@@ -92,6 +90,7 @@ class CcListeVehicules extends HTMLElement {
 
     //lorsque connecte'
     connectedCallback() {
+        console.log("custom")
         let jData;
         $.ajaxSetup({
             async: false
@@ -100,7 +99,7 @@ class CcListeVehicules extends HTMLElement {
             jData = data;
         })
         this.vehicules = jData;
-        this.frigo=jData;
+        this.frigos=jData;
         //cree les variables avec le fragment du code encapsule'
         this.templateContent = this._root.querySelector('#template-vehicule').content;
         this.result = this._root.querySelector('#result');
@@ -134,7 +133,7 @@ class CcListeVehicules extends HTMLElement {
 
     attributeChangedCallback(name, oldValue, newValue) {
         //this._root.getElementById(name).innerHTML=newValue;   
-        console.log('attributCHanged', name, oldValue, newValue);
+        // console.log('attributCHanged', name, oldValue, newValue);
 
         if (name === 'vehicules') {
             this.vehicules = newValue;

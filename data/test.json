@@ -1,43 +1,96 @@
 [
     {
-        "id": "moto_1",
-        "marque": "smuel",
-        "modele": "City Slicker",
-        "annee": "2019",
-        "photo": "./picture/frigo.png"
+        "id": 1,
+        "aliment":[
+            {
+                "nom": "pizza",
+                "year": 2021,
+                "month": 7,
+                "date": 27
+            },
+            {
+                "nom": "soupe",
+                "year": 2021,
+                "month": 4,
+                "date": 14
+            },
+            {
+                "nom": "natchos",
+                "year": 2021,
+                "month": 9,
+                "date": 31
+            }
+        ]
     }, 
     {
-        "id": "moto_2",
-        "marque": "Zero",
-        "modele": "FX",
-        "annee": "2020",
-        "photo": "./assets/Zero-FX.png"
+        "id": 2,
+        "aliment":[
+            {
+                "nom": "pizza",
+                "year": 2021,
+                "month": 7,
+                "date": 27
+            },
+            {
+                "nom": "soupe",
+                "year": 2021,
+                "month": 3,
+                "date": 14
+            },
+            {
+                "nom": "natchos",
+                "year": 2021,
+                "month": 9,
+                "date": 31
+            }
+        ]
+   
     },
     {
-        "id": "moto_3",
-        "marque": "Cake",
-        "modele": "Kalk&",
-        "annee": "2020",
-        "photo": "./assets/Zero-FX.png"
+        "id": 3,
+        "aliment":[
+            {
+                "nom": "pizza",
+                "year": 2021,
+                "month": 7,
+                "date": 27
+            },
+            {
+                "nom": "soupe",
+                "year": 2021,
+                "month": 4,
+                "date": 14
+            },
+            {
+                "nom": "natchos",
+                "year": 2021,
+                "month": 9,
+                "date": 31
+            }
+        ]
+      
     },
     {
-        "id": "moto_4",
-        "marque": "Evoke",
-        "modele": "Urban",
-        "annee": "2020",
-        "photo": "./assets/Zero-FX.png"
-    },
-    {
-        "id": "moto_5",
-        "marque": "Emflux",
-        "modele": "One",
-        "annee": "2020",
-        "photo": "./assets/Zero-FX.png"
-    },{
-        "id": "moto_6",
-        "marque": "Harey Davidson",
-        "modele": "LiveWire",
-        "annee": "2019",
-        "photo": "./assets/Zero-FX.png"
+        "id": 4,
+        "aliment":[
+            {
+                "nom": "pizza",
+                "year": 2021,
+                "month": 7,
+                "date": 27
+            },
+            {
+                "nom": "soupe",
+                "year": 2021,
+                "month": 3,
+                "date": 14
+            },
+            {
+                "nom": "natchos",
+                "year": 2021,
+                "month": 9,
+                "date": 31
+            }
+        ]
     }
 ]
