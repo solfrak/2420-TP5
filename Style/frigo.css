@@ -1,70 +1,110 @@
-.flecheContainer{
-    text-align: left;
-}
-.fleche{
-    text-align: left;
+.flecheContainer {
+  text-align: left;
 }
 
-#flecheEspaceEntretient{
-    cursor: pointer;
+.fleche {
+  text-align: left;
 }
 
-.container{
-    margin: 0;
-    padding: 0;
-
-}
-.ReparationComment{
-    display: flex;
-   
-    float: left;
-    margin-bottom: 15px;
-    font-size: 18px;
-    color: #000000;
-    vertical-align: none;
-
-}
-#UneEntrepriseFamiliale{
-    color: #000000;
-    border-style: solid;
-
+#flecheEspaceEntretient {
+  cursor: pointer;
 }
 
-#popupReparation{
-    visibility: hidden;
-    z-index: 1;
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    width: 489px;
-    height: 230px;
-    top: 50%;
-    left: 50%;
-    margin-top: -120px;
-    margin-left: -242px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    box-shadow: 2px 2px 5px rgb(0 0 0 / 35%);
-  }
+.titre {
+  font-size: 24px;
+  text-align: center;
+}
 
-#imageReparation{
-    height: 56px;
-    width: 56px;
-    position: absolute;
-    left: 90%;
-    top: 20%;
-    cursor: pointer;
-    z-index: 1;
-  }
+.container {
+  margin: 0;
+  padding: 0;
+  padding-top: 2%;
+}
 
-  #boutonEnvoyerReparation
-  {
-    position: absolute;
-    left: 55%;
-    top: 8%;
-  }
+#popupReparation {
+  display: flexbox;
+  visibility: hidden;
+  z-index: 1;
+  background-color: rgba(245, 245, 245, 0.95);
+  position: absolute;
+  width: 489px;
+  top: 50%;
+  left: 50%;
+  margin-top: -120px;
+  margin-left: -242px;
+  /* border-width: 1px; */
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 35%);
+}
 
-  .commentaire
-  {
-    left: 10%;
-  }
+#imageReparation {
+  height: 56px;
+  width: 56px;
+  position: absolute;
+  left: 90%;
+  top: 20%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.xButton {
+  filter: grayscale(1);
+  filter: invert(100%);
+  margin-top: 25px;
+  margin-left: -25px;
+}
+
+#boutonEnvoyerReparation {
+  left: 35%;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  vertical-align: none;
+  text-align: center;
+  background-color: rgb(0, 140, 140);
+  border-color: transparent;
+}
+
+#boutonEnvoyerReparation:hover {
+  background-color: rgba(0, 140, 140, 0.8);
+  cursor: pointer;
+}
+
+.commentaire {
+  left: 10%;
+  float: left;
+}
+
+#Commentaire {
+  text-align: center;
+  height: 100%;
+  padding: 10px;
+}
+
+.ReparationComment {
+  height: 130px;
+  width: 425px;
+  outline: none;
+}
+
+.selection {
+  width: 200px;
+  padding: 2px;
+  text-align: center;
+}
+
+.selection {
+  width: 200px;
+  padding: 2px;
+  text-align: center;
+}
+
+.rowSelection {
+  padding-top: 7px;
+}
+
+.nivSevere {
+  text-align: center;
+}

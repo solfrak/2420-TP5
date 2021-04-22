@@ -17,36 +17,11 @@ function frigo(data) {
         listfrigo.push(new unFrigo(data.frigo[x].id, data.frigo[x].nettoyer, data.frigo[x].contenu.nom, data.frigo[x].contenu.year, data.frigo[x].contenu.month, data.frigo[x].contenu.date));
     }
 
-    // for (let x = 0; x < listfrigo.length; x = x + 3) {
-    //     document.getElementById("listfrigo").innerHTML += "<div class = 'row' id='inListFrigo'>";
-    //     document.getElementById("inListFrigo").innerHTML += listfrigo[x].print();
-    //     if(x+1 < listfrigo.length){
-    //         document.getElementById("inListFrigo").innerHTML += listfrigo[x+1].print();
-    //     }
-    //     if(x+2 < listfrigo.length){
-    //         document.getElementById("inListFrigo").innerHTML += listfrigo[x+2].print();
-    //     }
-    //     document.getElementById("listfrigo").innerHTML += "</div>";
-    // }
-
-    // for (let x = 0; x < listfrigo.length; x++) {
-    //     let monImg = document.getElementById(listfrigo[x].id + "net");
-    //     if(listfrigo[x].nettoyer == 0){
-    //         monImg.style.visibility = "hidden";
-    //     }
-    //     else{
-    //         monImg.style.visibility = "visible";
-    //     }
-        
-
-    // }
-    // createFrigoPopup(listfrigo)
-    
     let ServiceReparation = document.getElementById("frigoDefectueux");
 
     for (let x = 0; x < listfrigo.length; x = x + 1) {//Pour chaque frigo
         let option = document.createElement("option");//creer une option
-        let IDFrigo = "Frigo" + listfrigo[x].id;
+        let IDFrigo = "Frigo " + listfrigo[x].id;
         option.innerHTML = IDFrigo;
         option.value = IDFrigo;
         ServiceReparation.appendChild(option);

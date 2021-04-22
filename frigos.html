@@ -54,7 +54,7 @@
       <div class="grid-item"></div>
       <div class="grid-item">
         <div class="flecheContainer">
-          <img src="/picture/u132.svg" id ="flecheEspaceEntretient" alt="" style="transform: rotate(180deg);">
+          <img src="/picture/u132.svg" id="flecheEspaceEntretient" alt="" style="transform: rotate(180deg);">
           <p id="fleche" class="fleche"></p>
         </div>
       </div>
@@ -70,68 +70,71 @@
   <section>
     <img id="imageReparation" src="/picture/u107.png"></img>
     <section>
-        <div class="container-fluid" id="listfrigo">
-            <test-frigo fichier="./data/test.json"></test-frigo>
-        </div>
+      <div class="container-fluid" id="listfrigo">
+        <test-frigo fichier="./data/test.json"></test-frigo>
+      </div>
     </section>
     <div id="frigoPopup"></div>
 
     <div id="popupReparation">
-    <img src="https://image.flaticon.com/icons/png/512/458/458595.png" alt="" id="xButton2" class="xButton" onclick="fermerPopup('popupReparation')"">
-    <div class="container-fluid" id="UneEntrepriseFamiliale">
-      <div class="container">
-        <p>Service de réparation</p>
-        <div class="row ID friogo">
-          <label class="col-sm-6" for="frigo">ID du frigo défectueux </label>
-          <div class="col-sm-6">
-            <select name="frigo" id="frigoDefectueux">
-       
-            </select>
-          </div>
-          
-        </div>
-        <div class="row fonction affecté">
-          <div class="col-sm-6">Fonction affecté</div>
-          <div class="col-sm-6">
-            <select name="FonctionAffecte" id="FonctionAffecte">
-       
-            <option>Étagère</option>
-            <option>Éclairage</option>
-            <option>Porte</option>
-            <option>Réfrigération</option>
-            <option>Autre</option>
+      <img src="https://image.flaticon.com/icons/png/512/458/458595.png" alt="" id="xButton2" class="xButton"
+        onclick="fermerPopup('popupReparation')"">
+    <form id=" Rapport">
+      <div class=" container-fluid" id="UneEntrepriseFamiliale">
+        <div class="container">
+          <p class="titre">Rapporter un frigo défectueux</p>
+          <div class="row ID friogo">
+            <label class="col-sm-6" for="frigo">ID du frigo défectueux </label>
+            <div class="col-sm-6">
+              <select name="frigo" id="frigoDefectueux" class="selection">
 
-              <un-frigo numero = "001"></un-frigo>
-              
-        </select></div>
-        </div>
-        <div class="row severité">
-          <div class="col-sm-6">Sévérité</div>
+              </select>
+            </div>
 
-          <div class="col-sm-2">
-            <input type="radio" id="faible" name="severité" value="faible">
-            <label for="faible">Faible</label><br>
           </div>
-          <div class="col-sm-2">
-            <input type="radio" id="modere" name="severité" value="modere">
-            <label for="modere">Modere</label><br>
+          <div class="row rowSelection">
+            <div class="col-sm-6">Fonction affectée</div>
+            <div class="col-sm-6">
+              <select name="FonctionAffecte" id="FonctionAffecte" class="selection">
+
+                <option>Étagère</option>
+                <option>Éclairage</option>
+                <option>Porte</option>
+                <option>Réfrigération</option>
+                <option>Autre</option>
+
+                <un-frigo numero="001"></un-frigo>
+
+              </select>
+            </div>
           </div>
-          <div class="col-sm-2">
-            <input type="radio" id="critique" name="severité" value="critique">
-            <label for="critique">Critique</label><br>
+          <div class="row rowSelection">
+            <div class="col-sm-6">Niveau de sévérité</div>
+
+            <div class="col-sm-2 nivSevere">
+              <input type="radio" id="faible" name="severité" value="faible">
+              <label for="faible" style="color:darkgreen;">Faible</label><br>
+            </div>
+            <div class="col-sm-2 nivSevere">
+              <input type="radio" id="modere" name="severité" value="modere">
+              <label for="modere" style="color:rgb(165, 110, 6);">Modéré</label><br>
+            </div>
+            <div class="col-sm-2 nivSevere">
+              <input type="radio" id="critique" name="severité" value="critique">
+              <label for="critique" style="color:red;">Critique</label><br>
+            </div>
           </div>
-        </div>
-        <div class="commentaire">Commentaire</div>
-        <div class="row Boite commentaire">
-          <div class="col-sm-12">
-            <input type="text" class="ReparationComment" id="CommentaireBoxReparation">
+          <section id="Commentaire">
+            <div class="commentaire">Commentaire: </div><br>
+            <!--  <input type="text" class="ReparationComment" id="CommentaireBoxReparation">-->
+            <textarea class="ReparationComment" form="Rapport"></textarea>
             <br><br>
-            <button id="boutonEnvoyerReparation" onclick="alerterReparation(); fermerPopup('popupReparation');">Envoyer</button>
-          </div>
-          </div>
-
+            <button id="boutonEnvoyerReparation"
+              onclick="alerterReparation(); fermerPopup('popupReparation');">Envoyer</button>
+          </section>
         </div>
-        </div>
+      </div>
+      </form>
     </div>
   </section>
 
